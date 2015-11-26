@@ -1,0 +1,25 @@
+function [ output_args ] = PintaGrafica( input_args )
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+
+%calculo de TOA1
+TOA1=[round(cos(pi/2)) round(-sin(pi/2))*round(cos(pi/2)) round(sin(pi/2))*round(sin(pi/2)) x;
+    round(sin(pi/2)) round(cos(pi/2))*round(cos(pi/2)) round(-cos(pi/2))*round(sin(pi/2)) y;
+    0 round(sin(pi/2)) round(cos(pi/2)) z; 
+    0 0 0 1];
+
+%%Ecuaciones de Puntos finales de origen a vinculo
+
+
+A01=TOA1*A1
+A02=TOA1*A1*A2
+A03=TOA1*A1*A2*A3
+A04=OA1*A1*A2*A3*A4
+A05=
+A06=
+A07=
+
+
+
+end
+
